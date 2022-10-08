@@ -5,12 +5,12 @@ var score = 0;
 var highScores = [
   {
     name: "arbaaz",
-    score: 3,
+    score: 4,
   },
 
   {
     name: "Ashu",
-    score: 2,
+    score: 5,
   },
 ]
 
@@ -24,7 +24,14 @@ var questions = [{
 {
   question: "Who is Tony Stark’s father?",
   answer: "Howard Stark"
-}];
+}, {
+  question: "Wanda and her brother Pietro are from where?",
+  answer: "Sokovia"
+}, {
+  question: "Captain America’s shield and Bucky's arm are made of what?",
+  answer: "Vibranium"
+}
+];
 
 
 function welcome() {
